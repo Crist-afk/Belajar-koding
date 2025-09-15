@@ -1,130 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biodata || Crist Garcia Pasaribu Ms</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <title>Biodata - Crist Garcia Pasaribu</title>
+    <style>
+        /* Pengaturan Dasar Halaman */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e6eef7; /* Warna latar belakang halaman yang lembut */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
 
+        /* Kontainer Utama Biodata */
+        .container {
+            background-color: #001f3f; /* Warna Biru Tua (Navy) */
+            color: #ffffff; /* Warna teks putih agar kontras */
+            width: 100%;
+            max-width: 700px;
+            padding: 30px 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            border: 1px solid #003366;
+        }
+
+        /* Judul Utama */
+        h1 {
+            text-align: center;
+            color: #7fdbff; /* Warna biru muda untuk judul */
+            border-bottom: 2px solid #7fdbff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+            letter-spacing: 1.5px;
+        }
+
+        /* Judul Sub-bagian (Riwayat Pendidikan) */
+        h2 {
+            color: #7fdbff;
+            margin-top: 40px;
+            border-bottom: 1px solid #003366;
+            padding-bottom: 8px;
+        }
+
+        /* Informasi Personal */
+        .personal-info p {
+            margin: 12px 0;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .personal-info strong {
+            display: inline-block;
+            width: 150px; /* Lebar label agar rapi */
+            color: #a2d2ff; /* Warna label yang lebih terang */
+        }
+
+        /* Bagian Riwayat Pendidikan */
+        .education-history .item {
+            background-color: rgba(255, 255, 255, 0.05); /* Latar belakang transparan untuk setiap item */
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #7fdbff; /* Aksen garis di kiri */
+        }
+
+        .education-history h3 {
+            margin: 0 0 5px 0;
+            color: #ffffff;
+        }
+
+        .education-history p {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #bde0fe; /* Warna teks yang sedikit lebih redup */
+        }
+    </style>
+</head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="brand">RMS</div>
-            <div class="hamburger">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-            </div>
-            <ul class="nav-link">
-                <li><a href="#Biodata">Biodata</a></li>
-                <li><a href="#Pendidikan">Pendidikan</a></li>
-                <li><a href="#Pengalaman">Pengalaman</a></li>
-                <li><a href="#Kontak">Kontak</a></li>
-            </ul>
-        </div>
-    </nav>
 
     <div class="container">
-        <!-- Biodata  -->
-        <section id="Biodata">
-            <div class="profile-card">
-                <img src="/image/Foto.jpg" alt="Foto Crist" class="profile-img">
-                <div class="profile-info">
-                    <h1>Crist Garcia Pasaribu</h1>
-                    <p><strong>NIM:</strong> 3312501041</p>
-                    <p><strong>Jurusan:</strong> Teknik Informatika</p>
-                    <p><strong>Jenis Kelamin:</strong> Laki-laki</p>
-                    <p><strong>Tempat Lahir:</strong> Batam</p>
-                    <p><strong>Tanggal Lahir:</strong> 27 juli 2006</p>
-                </div>
-            </div>
-        </section>
+        <h1>BIODATA DIRI</h1>
 
-        <!-- Pendidikan -->
-        <section id="Pendidikan">
-            <h2 class="section-title">Pendidikan</h2>
-            <table class="education-table">
-                <thead>
-                    <tr>
-                        <th>Institusi</th>
-                        <th>Program/Jurusan</th>
-                        <th>Periode</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Politeknik negeri Batam</td>
-                        <td>Teknik Informatika</td>
-                        <td>2025 - Sekarang</td>
-                    </tr>
-                    <tr>
-                        <td>SMA Negri 1 BATAM</td>
-                        <td>IPA</td>
-                        <td>2022 - 2025</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+        <div class="personal-info">
+            <p><strong>Nama</strong>: Crist Garcia Pasaribu</p>
+            <p><strong>NIM</strong>: 3312501041</p>
+            <p><strong>Jurusan</strong>: Teknik Informatika</p>
+            <p><strong>Jenis Kelamin</strong>: Laki-laki</p>
+            <p><strong>Tempat Lahir</strong>: Batam</p>
+            <p><strong>Tanggal Lahir</strong>: 27 Juli 2006</p>
+        </div>
 
-        <!-- Pengalaman -->
-        <section id="Pengalaman">
-            <h2 class="section-title">Pengalaman</h2>
-            <div class="Pendidikan-card">
-                <h3>Pernah Ikut organisasi Pramuka</h3>
-                <p class="date">2023 - 2025</p>
-                <p>Ambalan Ken Arok Ken Dedes </p>
-                <p>Menjadi Koordinator Bagian Perlengkapan</p>
+        <h2>RIWAYAT PENDIDIKAN</h2>
+        <div class="education-history">
+            <div class="item">
+                <h3>Politeknik Negeri Batam</h3>
+                <p>Jurusan: Teknik Informatika</p>
+                <p>Periode: 2025 - Sekarang</p>
             </div>
-        </section>
-
-        <!-- Footer Kontak -->
-        <footer id="Kontak">
-            <div class="social-links">
-                <a href="cristgarciapasaribu:@gmail.com" class="social-icon" title="Email">
-                    <img src="/image/email.png" alt="Email">
-                </a>
-                <a href="https://www.instagram.com/crist._.0?igsh=eWt6amoxMmp2NmYx" target="_blank" class="social-icon" title="Instagram">
-                    <img src="/image/instagram.png" alt="Instagram">
-                </a>
-                <a href="https://github.com/Crist-afk" target="_blank" class="social-icon" title="GitHub">
-                    <img src="/image/github.png" alt="GitHub">
-                </a>
+            <div class="item">
+                <h3>SMA Negeri 1 BATAM</h3>
+                <p>Jurusan: IPA</p>
+                <p>Periode: 2022 - 2025</p>
             </div>
-            <p class="footer-text">© 2025 Crist Garcia Pasaribu.</p>
-        </footer>
+        </div>
     </div>
 
-    <script>
-        // Navbar scroll effect
-        window.addEventListener('scroll', function() {
-            const navbar = document.querySelector('.navbar');
-            if (window.scrollY > 50) {
-                navbar.classList.add('scrolled');
-            } else {
-                navbar.classList.remove('scrolled');
-            }
-        });
-
-        // Toggle mobile menu
-        const hamburger = document.querySelector('.hamburger');
-        const navLink = document.querySelector('.nav-link');
-        
-        hamburger.addEventListener('click', () => {
-            navLink.classList.toggle('active');
-        });
-
-        // Smooth scrolling for navigation
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-                navLink.classList.remove('active');
-            });
-        });
-        </script>
 </body>
 </html>
